@@ -1,5 +1,5 @@
 #!/bin/bash
-py -3.6 -m venv venv
+py -3 -m venv venv
 . ./venv/bin/activate
 pip install --upgrade pip
 pip install --upgrade setuptools
