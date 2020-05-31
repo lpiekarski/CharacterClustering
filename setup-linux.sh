@@ -1,5 +1,7 @@
 #!/bin/bash
-virtualenv -p python3 venv
-./activate-linux.sh
-pip3 install -r requirements.txt
+py -3.6 -m venv venv
+. ./venv/bin/activate
+pip install --upgrade pip
+pip install --upgrade setuptools
+pip install -r requirements.txt
 deactivate
